@@ -15,4 +15,6 @@ docker run \
  -v /home/mmoussa/projects:/etc/newman \
  -t newmancsv:1.0 run Test_Page_BE-VIP.json \
  -r customcsv
+ 
+ /home/mmoussa/projects = path where is the collection
 
