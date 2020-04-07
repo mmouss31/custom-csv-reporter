@@ -12,9 +12,5 @@ To build : docker build --tag newmancsv:1.0 .
 
 To run : 
 docker run \
- -v /home/mmoussa/projects:/etc/newman \
- -t newmancsv:1.0 run Test_Page_BE-VIP.json \
+ -t newmancsv:1.0 run https://www.getpostman.com/collections/b628d689487f7df8ffb0  \
  -r customcsv
- 
- /home/mmoussa/projects = path where is the collection
-
