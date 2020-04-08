@@ -7,4 +7,6 @@ COPY newman-reporter-customcsv-1.0.0.tgz .
 
 RUN npm i -g newman-reporter-customcsv-1.0.0.tgz
 
+WORKDIR /etc/newman
+
 ENTRYPOINT ["newman"]
