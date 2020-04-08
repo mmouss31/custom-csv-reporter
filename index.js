@@ -93,7 +93,5 @@ function getResults () {
     return row.join('|')
   })
 
-  results.unshift(columns.join('|'))
-
   return results.join('\n')
 }
